@@ -51,8 +51,7 @@ servico = Service(ChromeDriverManager().install())
 navegador = webdriver.Chrome(service=servico)
 
 # abrir o site desejado
-navegador.get("https://colegiozerohum.sistematutor.com.br/tutor/sistema/login.do;jsessionid=60C405CB81EB6D17F356E5A6B052FCC9?method=logout")
-
+navegador.get("https://colegiozerohum.sistematutor.com.br/.......etc")
 # preencher campo de login
 campo_login = navegador.find_element(By.XPATH, '//*[@id="login"]')
 campo_login.send_keys("coloque aqui o e-mail para login")
@@ -75,7 +74,7 @@ botao.click()
 
 #Passo 1, pesquisa dentro do Tutor sendo necessário primeiramente definir um nome 
 campo_pesquisa_aluno = navegador.find_element(By.XPATH, '//*[@id="pageWrapperPrimary"]/div/div[1]/section/div[2]/div[1]/div[2]/form/div/div[1]/input')
-campo_pesquisa_aluno.send_keys("CAIO BRENO SILVA BEZERRIL")
+campo_pesquisa_aluno.send_keys("NOME QUALQUER")
 #time.sleep(1)
 
 #Passo 2, clicar no botão após definir o nome
