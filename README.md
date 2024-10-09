@@ -24,21 +24,8 @@ Antes de executar o script, certifique-se de que os seguintes pacotes estão ins
 #### Você pode instalar as dependências necessárias com o seguinte comando:
 
 
-pip install selenium webdriver-manager openpyxl
+- pip install selenium webdriver-manager openpyxl
 
-### Como Usar
-
-- Clone o repositório:
-
- git clone https://github.com/seu-usuario/nome-do-repositorio.git
-
-- Navegue até o diretório do projeto:
-
-cd nome-do-repositorio
-
-- Execute o script Python:
-
-python scraping_automatizado.py
 
 #### Durante a execução, o script solicitará as seguintes informações:
 
@@ -61,8 +48,8 @@ python scraping_automatizado.py
 - Login Automático: O script acessa o site de login, preenche as credenciais e faz o login.
 - Navegação e Coleta de Dados: Para cada aluno na lista, o script pesquisa no sistema, acessa os dados financeiros e coleta informações como nome, CPF, endereço, e-mail, etc.
 - Armazenamento de Dados: Os dados coletados são salvos em um arquivo .xlsx nomeado pelo usuário.
-### Exemplo de Saída
-A saída gerada será uma planilha Excel com as seguintes colunas:
+### Exemplo de Saída:
+#### A saída gerada será uma planilha Excel com as seguintes colunas:
 
 |Nome|	CPF	|E-mail	|RG	|Telefone	|Data de Nascimento	|Sexo	|Logradouro	|Complemento	|CEP	|Bairro	|Cidade	|UF |
 
